@@ -1,0 +1,29 @@
+{
+  "name": "mongo-type-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "dev": "ts-node-dev --respawn --transpileOnly ./app/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uayeb25/mongo-type-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uayeb25/mongo-type-example/issues"
+  },
+  "homepage": "https://github.com/uayeb25/mongo-type-example#readme",
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.8.2"
+  },
+  "dependencies": {
+    "@types/mongoose": "^5.7.1",
+    "mongoose": "^5.9.2"
+  }
+}
